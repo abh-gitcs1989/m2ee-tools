@@ -9,4 +9,5 @@ setup(
     packages         = ['m2ee'],
     package_dir      = {'m2ee': 'src/m2ee'},
     scripts          = ['src/m2ee.py'],
+    install_requires = ['pyyaml', 'httplib2'],
 )
